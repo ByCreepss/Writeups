@@ -13,15 +13,16 @@
 1. Déduction, on a une suite de 1 et de 2, est ce que ça ressemble à quelque chose que je connais déjà ? Oui → binaire (suite de 0 et de 1) on va donc faire de la substitution dans un premier temps en échangeant les 1 avec des 0 et les 2 avec des 1. 
 Ici, je vais utiliser CyberChef pour le faire, voir capture d’écran :
     
-    ![image.png](attachment:3f520934-20c8-4072-b4c5-abb6c3a3f0c5:image.png)
+    ![Substitution](./assets/forever1.png)
     
 2. Puisque c’est du binaire, je vais pouvoir essayer de voir ce que cette suite veut dire, toujours avec CyberChef, mais cette fois ces paramètres seront utilisés : 
     
-    ![image.png](attachment:32d2e22a-ab9a-4376-b044-9870be3623d5:image.png)
+    ![Substitution](./assets/forever2.png)
     
 3. L’Output ici présent me donne fortement l’impression qu’il s’agit d’une chaîne de caractère codée en base64 (les deux = à la fin correspondent à du “padding” en base64), je vais donc décoder cette chaîne, toujours sur CyberChef, avec les paramètres suivants : 
-
-![image.png](attachment:c236e68a-6488-4ae0-98cb-33c1cb714b36:image.png)
+    
+    ![Substitution](./assets/forever3.png)
+    
 
 <aside>
 ✅
