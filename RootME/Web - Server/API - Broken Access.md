@@ -14,7 +14,7 @@ A webpage containing different APIs endpoints that we can use : http://api-broke
 
 First of all, we land on this page :
 
-![image.png](attachment:6c7fe3db-4484-45de-a79e-36352e10e772:image.png)
+![Substitution](./assets/ABA1.png)
 
 We have **4** endpoints : 
 
@@ -27,13 +27,13 @@ The first thing we may do is to try to register a new user, then login with that
 
 After you’ve successfully logged in, you should get this output : 
 
-![image.png](attachment:3974d891-75da-4715-b42e-51830791c932:image.png)
+![Substitution](./assets/ABA2.png)
 
 Meaning that we can now retrieve our user’s information with the **/api/user** endpoint !
 
 To do so, we will set any number as the user_id (the content returned by the request will always be our information, no matter which user_id we’ve put). But, **notice how it says (path)** below the field ! ****:
 
-![image.png](attachment:54db38d6-cc83-43da-9063-4fd5bcb35c91:image.png)
+![Substitution](./assets/ABA3.png)
 
 We’ve successfully retrieved our data ! And we can see that the ID of my user is 3.
 
@@ -43,18 +43,18 @@ But first, we should analyze what happens when we send a request to the endpoint
 
 Let’s make a request and intercept it (the number we put in the user_id field is still not so important) : 
 
-![image.png](attachment:07a7c3b1-f35a-4500-92e5-c20190ac1cf9:image.png)
+![Substitution](./assets/ABA4.png)
 
 And here’s the response, we get the informations on the user : 
 
-![image.png](attachment:f7f343cd-3638-4a7c-816f-28a83df94a93:image.png)
+![Substitution](./assets/ABA5.png)
 
 When we think of it, the number **1** ID would probably be the admin’s ID, let’s try to modify the request to access to his informations by adding a /1 to the path ! :
 
-![image.png](attachment:e041cf8a-9568-43c2-8afd-ed73d679c7c1:image.png)
+![Substitution](./assets/ABA6.png)
 
  
 
 The response gives us the flag 🙂 : 
 
-![image.png](attachment:f307e027-b3c2-4406-9589-85284b33115f:image.png)
+![Substitution](./assets/ABA7.png)
