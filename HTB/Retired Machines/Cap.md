@@ -15,7 +15,7 @@ We see that there is 3 open TCP ports.
 <aside>
 ✅
 
-Answer ****: **3**
+Answer : **3**
 
 </aside>
 
